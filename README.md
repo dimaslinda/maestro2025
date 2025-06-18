@@ -225,9 +225,8 @@ Project ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/
 
 Untuk pertanyaan dan dukungan:
 
--   **Email**: support@maestro.com
--   **Website**: https://maestro.com
--   **Phone**: +62 21 1234 5678
+-   **Email**: deniasitudimas@gmail.com
+-   **Website**: https://maestrokontraktor.com/
 
 ## 🙏 Acknowledgments
 
