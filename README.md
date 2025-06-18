@@ -1,6 +1,6 @@
 # 🏗️ Maestro2025 - Website Perusahaan Konstruksi
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-red.svg)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com)
 [![Filament](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com)
 [![PHP](https://img.shields.io/badge/PHP-8.1+-purple.svg)](https://php.net)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
