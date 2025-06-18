@@ -871,9 +871,15 @@
     <section class="h-auto relative z-[12] overflow-hidden">
         <div class="container mx-auto p-6">
             <div class="py-10 xl:py-20">
-                <h2 class="text-hitam font-inter font-bold text-3xl sm:text-4xl md:text-5xl text-center uppercase">
-                    klien dan mitra
-                </h2>
+                @if (App::getLocale() == 'id')
+                    <h2 class="text-hitam font-inter font-bold text-3xl sm:text-4xl md:text-5xl text-center uppercase">
+                        klien dan mitra
+                    </h2>
+                @else
+                    <h2 class="text-hitam font-inter font-bold text-3xl sm:text-4xl md:text-5xl text-center uppercase">
+                        clients and partners
+                    </h2>
+                @endif
 
                 <div class="flex flex-wrap gap-4 justify-center p-0 w-full md:p-5 my-20">
                     <img src="{{ asset('img/general/logo/maybank.webp') }}" loading="lazy"
