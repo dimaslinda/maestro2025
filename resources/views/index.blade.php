@@ -235,7 +235,8 @@
                 @forelse ($banner as $b)
                     <div class="swiper-slide">
                         <div class="h-[50vh] lg:h-[80vh] xl:h-screen min-[1800px]:h-[80vh] mt-20">
-                            <img src="{{ $b->getFirstMediaUrl('banner') }}" class="object-cover w-full h-full" alt="">
+                            <img src="{{ $b ? $b->getFirstMediaUrl('banner') : asset('img/general/bg-banner.webp') }}"
+                                class="object-cover w-full h-full" alt="">
                         </div>
                     </div>
                 @empty
@@ -768,8 +769,8 @@
                 @forelse ($portofolio as $p)
                     <div class="relative swiper-slide">
                         <div class="h-[90vh] lg:h-screen pl-6 lg:pl-96">
-                            <img src="{{ $p->getFirstMediaUrl('portofolio') }}" class="object-cover w-full h-full"
-                                alt="portfolio">
+                            <img src="{{ $p ? $p->getFirstMediaUrl('portofolio') : asset('img/general/bg-banner.webp') }}"
+                                class="object-cover w-full h-full" alt="portfolio">
                         </div>
                         <div
                             class="absolute w-full h-full bg-gradient-to-r from-[#191919_0%] lg:from-[#191919_30%] to-transparent top-0 left-0">
@@ -1614,7 +1615,8 @@
     <section class="overflow-hidden relative h-auto bg-hitam">
 
         <div class="absolute left-0 top-52 lg:-bottom-52 lg:-left-20">
-            <img src="{{ $maesgazinelast->getFirstMediaUrl('maesgazine') }}" alt="">
+            <img src="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('maesgazine') : asset('img/general/bg-banner.webp') }}"
+                alt="">
         </div>
         <div class="container relative z-10 p-6 mx-auto">
             <div class="mt-10">
@@ -1625,10 +1627,10 @@
         </div>
         <div class="relative z-10 lg:container lg:mx-auto lg:px-20 lg:pt-20">
             <div class="flex flex-col gap-0 lg:flex-row">
-                <a href="{{ $maesgazinelast->getFirstMediaUrl('pdf') }}" target="_blank">
+                <a href="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('pdf') : '#' }}" target="_blank">
                     <div class="container flex justify-center items-center self-center mx-auto mt-20 sm:mt-10">
                         <div class="h-80 w-60 sm:h-[90vh] sm:w-[50vh]">
-                            <img src="{{ $maesgazinelast->getFirstMediaUrl('maesgazine') }}"
+                            <img src="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('maesgazine') : asset('img/general/bg-banner.webp') }}"
                                 class="object-contain w-full h-full" alt="magazine">
                         </div>
                     </div>
@@ -1711,11 +1713,11 @@
                             <div class="testi-slide-img">
                                 <div class="sm:w-[500px] sm:h-[450px] w-96 h-96">
                                     <div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-xl"
-                                        style="background-image: url('{{ $item->getFirstMediaUrl('testimonial') }}')">
+                                        style="background-image: url('{{ $item ? $item->getFirstMediaUrl('testimonial') : asset('img/general/bg-testimonial.webp') }}')">
                                         <div class="my-custom-gradient w-full h-full rounded-xl p-10 text-white">
                                             <div class="flex items-center space-x-3">
                                                 <div class="w-14 h-14 bg-no-repeat bg-cover rounded-full"
-                                                    style="background-image: url('{{ $item->getFirstMediaUrl('profile') }}')">
+                                                    style="background-image: url('{{ $item ? $item->getFirstMediaUrl('profile') : asset('img/general/bg-testimonial.webp') }}')">
                                                 </div>
                                                 <div class="flex flex-col">
                                                     <div class="font-bold uppercase font-league">

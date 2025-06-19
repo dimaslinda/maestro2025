@@ -11,7 +11,8 @@
     <section class="h-auto bg-hitam mt-24 relative overflow-hidden">
         {{-- Background Image --}}
         <div class="bg-hitam/90 h-full absolute">
-            <img src="{{ $maesgazinelast->getFirstMediaUrl('maesgazine') }}" alt="Background Maesgazine">
+            <img src="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('maesgazine') : asset('img/general/bg-banner.webp') }}"
+                alt="Background Maesgazine">
         </div>
 
         <div class="bg-hitam/90 h-full relative">
@@ -31,7 +32,7 @@
                     {{-- Desktop Image --}}
                     <div class="relative w-full hidden lg:block">
                         <div class="absolute w-96 lg:right-10">
-                            <img src="{{ $maesgazinelast->getFirstMediaUrl('maesgazine') }}"
+                            <img src="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('maesgazine') : asset('img/general/bg-banner.webp') }}"
                                 class="w-full h-full object-contain" alt="Maesgazine Cover">
                         </div>
                     </div>
@@ -39,7 +40,7 @@
                     {{-- Mobile Image --}}
                     <div class="flex justify-center items-center self-center mb-5 lg:mb-0 relative w-1/2 lg:hidden">
                         <div class="relative lg:absolute lg:w-96">
-                            <img src="{{ $maesgazinelast->getFirstMediaUrl('maesgazine') }}"
+                            <img src="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('maesgazine') : asset('img/general/bg-banner.webp') }}"
                                 class="w-full h-full object-contain" alt="Maesgazine Cover">
                         </div>
                     </div>
@@ -57,7 +58,7 @@
                         <p class="text-white font-inter font-extralight text-center lg:text-left">
                             {{ __('Get your dream home reference!') }}
                         </p>
-                        <a href="{{ $maesgazinelast->getFirstMediaUrl('pdf') }}"
+                        <a href="{{ $maesgazinelast ? $maesgazinelast->getFirstMediaUrl('pdf') : '#' }}"
                             class="px-10 py-3 rounded-full border-2 text-tombol border-tombol font-bold uppercase mt-5 hover:bg-tombol hover:text-white transition-all ease-in-out duration-300">
                             {{ __('Download') }} Maesgazine
                         </a>

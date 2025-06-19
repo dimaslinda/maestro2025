@@ -128,7 +128,7 @@
                             data-modal-toggle="default-modal-{{ $item->id }}"
                             class="max-h-[500px] w-80 hover:rounded-lg hover:shadow-2xl hover:drop-shadow-2xl hover:scale-105 hover:cursor-pointer group transition-all ease-in-out duration-300 kolom {{ $item->kategori }}">
                             <div class="h-72 bg-center bg-no-repeat bg-cover group-hover:rounded-t-lg"
-                                style="background-image: url('{{ $item->getFirstMediaUrl('portofolio') }}')">
+                                style="background-image: url('{{ $item ? $item->getFirstMediaUrl('portofolio') : asset('img/general/bg-banner.webp') }}')">
                             </div>
                             <div class="px-6 py-4">
                                 <div class="flex flex-col gap-1">
