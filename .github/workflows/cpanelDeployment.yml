@@ -31,3 +31,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           exclude: |
             **/vendor/**
+            **/node_modules/**
