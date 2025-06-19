@@ -69,12 +69,14 @@ class PortofolioResource extends Resource
                         SpatieMediaLibraryFileUpload::make('portofolio')
                             ->collection('portofolio')
                             ->label('Portofolio Maestro')
+                            ->disk('gcs')
                             ->image()
                             ->required(),
                         SpatieMediaLibraryFileUpload::make('another_portofolio')
                             ->collection('another_portofolio')
                             ->label('Portofolio Lainnya')
                             ->image()
+                            ->disk('gcs')
                             ->multiple()
                             ->maxFiles(6)
                             ->required(),

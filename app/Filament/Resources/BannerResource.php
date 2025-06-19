@@ -41,6 +41,7 @@ class BannerResource extends Resource
                         SpatieMediaLibraryFileUpload::make('banner')
                             ->collection('banner')
                             ->label('Banner Maestro')
+                            ->disk('gcs')
                             ->image()
                             ->required(),
                     ]),

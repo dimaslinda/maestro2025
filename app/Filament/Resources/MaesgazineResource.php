@@ -72,6 +72,7 @@ class MaesgazineResource extends Resource
                             ->collection('maesgazine')
                             ->label('Sampul Maesgazine')
                             ->image()
+                            ->disk('gcs')
                             ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp'])
                             ->panelAspectRatio('2:1')
                             ->imageEditor()
@@ -80,6 +81,7 @@ class MaesgazineResource extends Resource
                         // PDF file upload field
                         SpatieMediaLibraryFileUpload::make('pdf')
                             ->collection('pdf')
+                            ->disk('gcs')
                             ->acceptedFileTypes(['application/pdf'])
                             ->label('File PDF')
                             ->required(),

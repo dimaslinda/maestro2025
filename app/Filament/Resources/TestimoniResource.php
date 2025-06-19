@@ -46,6 +46,7 @@ class TestimoniResource extends Resource
                 SpatieMediaLibraryFileUpload::make('profile')
                     ->collection('profile')
                     ->image()
+                    ->disk('gcs')
                     ->imageEditor()
                     ->circleCropper()
                     ->required()
@@ -53,6 +54,7 @@ class TestimoniResource extends Resource
                 SpatieMediaLibraryFileUpload::make('testimonial')
                     ->collection('testimonial')
                     ->label('Sampul Testimoni')
+                    ->disk('gcs')
                     ->panelAspectRatio('2:1')
                     ->imageEditor()
             ]);
