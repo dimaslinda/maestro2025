@@ -16,7 +16,7 @@ class SchemaHelper
             "alternateName" => "Maestro",
             "url" => url('/'),
             "logo" => asset('img/general/logo.webp'),
-            "description" => __('A General Contractor Company with experience in the construction sector'),
+            "description" => __('PT Kinarya Maestro Nusantara adalah Perusahaan General Contractor yang berpengalaman dalam bidang konstruksi, diantaranya pekerjaan Konsultan Perencana, Pelaksana Konstruksi, Managemen Proyek, Pengawasan dan Implementasi dalam bidang konstruksi.'),
             "foundingDate" => "2020",
             "address" => [
                 "@type" => "PostalAddress",
@@ -73,7 +73,7 @@ class SchemaHelper
             "@type" => "LocalBusiness",
             "name" => "PT. KINARYA MAESTRO NUSANTARA",
             "alternateName" => "Maestro",
-            "description" => __('A General Contractor Company with experience in the construction sector'),
+            "description" => __('PT Kinarya Maestro Nusantara adalah Perusahaan General Contractor yang berpengalaman dalam bidang konstruksi, diantaranya pekerjaan Konsultan Perencana, Pelaksana Konstruksi, Managemen Proyek, Pengawasan dan Implementasi dalam bidang konstruksi.'),
             "url" => url('/'),
             "telephone" => "+62-856-5656-8527",
             "address" => [
