@@ -773,7 +773,7 @@
                                 class="object-cover w-full h-full" alt="portfolio">
                         </div>
                         <div
-                            class="absolute w-full h-full bg-gradient-to-r from-[#191919_0%] lg:from-[#191919_30%] to-transparent top-0 left-0">
+                            class="absolute w-full h-full bg-gradient-to-r from-[#191919] lg:from-[#191919] to-transparent top-0 left-0">
 
                             <div class="container mx-auto">
                                 <div
@@ -1669,8 +1669,8 @@
                 </div>
             </div>
         </div>
-        <div
-            class="absolute w-full h-full bg-gradient-to-r from-[#191919_0%] lg:from-[#191919_0%] to-transparent top-0 left-0">
+        <div class="absolute w-full h-full top-0 left-0"
+            style="background: linear-gradient(to right, #191919 0%, transparent 100%);">
         </div>
         <div class="flex justify-center mb-20 lg:mb-10">
             <a href="/maesgazine"
