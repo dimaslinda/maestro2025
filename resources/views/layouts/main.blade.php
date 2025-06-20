@@ -8,7 +8,7 @@
     <meta name="description" content="@yield('deskripsi', 'ISO certified, we deliver high quality construction solutions to international standards.')">
     <meta name="keywords" content="@yield('keywords', 'construction, contractor, building, renovation, infrastructure, ISO certified, Indonesia')">
     <meta name="author" content="PT. KINARYA MAESTRO NUSANTARA">
-    <title>@yield('judul', 'Maestro - Quality Construction with ISO Standards')</title>
+    <title>PT. Kinarya Maestro Nusantara</title>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
