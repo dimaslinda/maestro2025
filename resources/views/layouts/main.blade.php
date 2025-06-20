@@ -151,8 +151,7 @@
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div class="flex items-center space-x-3 rtl:space-x-reverse">
                     <a href="/">
-                        <img src="{{ asset('img/general/logo.webp') }}" class="h-16 md:h-20"
-                            alt="Logo Maestro Kontraktor">
+                        <img src="{{ asset('img/general/logo.webp') }}" class="h-16 md:h-20" alt="Maestro Kontraktor">
                     </a>
                     <a href="https://www.instagram.com/kontraktormaestro/" target="_blank"
                         aria-label="Instagram Account">
