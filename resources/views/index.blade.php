@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('judul', 'Maestro Kontraktor')
 @section('kepala')
     <script type="application/ld+json">
     {
