@@ -1516,7 +1516,7 @@
 
             <div class="container relative p-6 py-20 mx-auto lg:py-52">
                 <div class="flex flex-col gap-0 lg:flex-row 2xl:gap-20">
-                    <div class="lg:h-[55vh] w-full lg:w-[80%] relative">
+                    <div class="w-full lg:w-[80%] max-w-4xl mx-auto relative">
                         <div class="swiper swipervideo">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -1564,9 +1564,10 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-pagination"></div>
                         </div>
-
-                        <div class="lg:flex absolute top-32 sm:top-40 min-[1800px]:top-52 left-0 lg:left-24 z-10">
+                        <!-- Tombol prev/next lebih rapat ke slider -->
+                        <div class="absolute top-1/2 -translate-y-1/2 left-2 z-10">
                             <div class="swiper-video-prev">
                                 <div
                                     class="flex justify-center items-center self-center w-14 h-14 text-2xl bg-white rounded-full shadow-2xl drop-shadow-2xl lg:w-20 lg:h-20">
@@ -1580,10 +1581,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="lg:flex absolute top-32 sm:top-40 min-[1800px]:top-52 right-0 lg:right-24 z-10">
+                        <div class="absolute top-1/2 -translate-y-1/2 right-2 z-10">
                             <div class="swiper-video-next">
                                 <div
-                                    class="flex justify-center items-center self-center w-14 h-14 text-2xl bg-white rounded-full shadow-2xl rop-shadow-2xl lg:w-20 lg:h-20">
+                                    class="flex justify-center items-center self-center w-14 h-14 text-2xl bg-white rounded-full shadow-2xl drop-shadow-2xl lg:w-20 lg:h-20">
                                     <svg class="w-6 h-6 text-tombol" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -1592,8 +1593,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
 
                     <div class="w-full lg:w-[20%] mt-10 lg:mt-0">
