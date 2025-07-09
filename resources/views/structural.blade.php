@@ -533,7 +533,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col xl:flex-row justify-between mb-5 lg:mb-10">
+        {{-- <div class="flex flex-col xl:flex-row justify-between mb-5 lg:mb-10">
             <div class="relative container mx-auto py-20 pl-6 pr-10 xl:pl-20 w-full xl:w-[65%]">
                 <img src="{{ asset('img/general/pelapisan.webp') }}" class="w-full object-cover" alt="pelapisan">
             </div>
@@ -575,7 +575,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="flex absolute -bottom-40 2xl:-bottom-80 right-0">
             <div class="relative flex">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 -right-32"
