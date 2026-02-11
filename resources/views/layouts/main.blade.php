@@ -8,7 +8,8 @@
     <meta name="description"
         content="@yield('deskripsi', 'Bersertifikat ISO, kami menghadirkan solusi konstruksi berkualitas tinggi sesuai standar internasional.')">
     <title>PT. Kinarya Konstruksi</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}?v=2">
+    <link rel="icon" type="image/webp" href="{{ asset('img/general/logocard.webp') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
