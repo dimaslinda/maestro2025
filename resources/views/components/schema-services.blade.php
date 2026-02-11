@@ -1,196 +1,196 @@
 {{-- Schema.org for Services Page --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Our Services",
-    "description": "Comprehensive construction services offered by PT. KINARYA MAESTRO NUSANTARA",
+    "@@context": "https://schema.org",
+    "@@type": "ItemList",
+    "name": "Layanan Kami",
+    "description": "Layanan konstruksi komprehensif yang ditawarkan oleh PT. KINARYA MAESTRO NUSANTARA",
     "numberOfItems": 7,
     "itemListElement": [
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 1,
             "item": {
-                "@type": "Service",
-                "name": "Commercial building",
-                "description": "Commercial building construction services including office buildings, retail spaces, and commercial facilities",
+                "@@type": "Service",
+                "name": "Bangunan Komersial",
+                "description": "Layanan konstruksi bangunan komersial termasuk gedung kantor, ruang ritel, dan fasilitas komersial",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Construction",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Commercial Construction') }}",
+                    "@@type": "Offer",
+                    "category": "Konstruksi Komersial",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 2,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('house building') }}",
-                "description": "{{ __('Residential house construction services for individual homes and housing complexes') }}",
+                "@@type": "Service",
+                "name": "Bangunan Perumahan",
+                "description": "Layanan konstruksi rumah tinggal untuk rumah perorangan dan kompleks perumahan",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Construction",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Residential Construction') }}",
+                    "@@type": "Offer",
+                    "category": "Konstruksi Perumahan",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 3,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('infrastructure') }}",
-                "description": "{{ __('Infrastructure construction services including roads, bridges, and public facilities') }}",
+                "@@type": "Service",
+                "name": "Infrastruktur",
+                "description": "Layanan konstruksi infrastruktur termasuk jalan, jembatan, dan fasilitas umum",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Construction",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Infrastructure Construction') }}",
+                    "@@type": "Offer",
+                    "category": "Konstruksi Infrastruktur",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 4,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('auxiliaries building') }}",
-                "description": "{{ __('Auxiliary building construction services for supporting facilities and structures') }}",
+                "@@type": "Service",
+                "name": "Bangunan Tambahan",
+                "description": "Layanan konstruksi bangunan tambahan untuk fasilitas dan struktur pendukung",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Construction",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Auxiliary Construction') }}",
+                    "@@type": "Offer",
+                    "category": "Konstruksi Tambahan",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 5,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('New Building') }}",
-                "description": "{{ __('New building construction services from ground up development') }}",
+                "@@type": "Service",
+                "name": "Gedung Baru",
+                "description": "Layanan konstruksi gedung baru dari pembangunan awal",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Construction",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('New Construction') }}",
+                    "@@type": "Offer",
+                    "category": "Konstruksi Baru",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 6,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('Renovation') }}",
-                "description": "{{ __('Building renovation and remodeling services for existing structures') }}",
+                "@@type": "Service",
+                "name": "Renovasi",
+                "description": "Layanan renovasi dan perombakan bangunan untuk struktur yang sudah ada",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Renovation",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Renovation Services') }}",
+                    "@@type": "Offer",
+                    "category": "Layanan Renovasi",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
             }
         },
         {
-            "@type": "ListItem",
+            "@@type": "ListItem",
             "position": 7,
             "item": {
-                "@type": "Service",
-                "name": "{{ __('Interior Furniture') }}",
-                "description": "{{ __('Interior design and furniture services for complete interior solutions') }}",
+                "@@type": "Service",
+                "name": "Furnitur Interior",
+                "description": "Layanan desain interior dan furnitur untuk solusi interior lengkap",
                 "provider": {
-                    "@type": "Organization",
+                    "@@type": "Organization",
                     "name": "PT. KINARYA MAESTRO NUSANTARA",
                     "alternateName": "Maestro"
                 },
                 "serviceType": "Interior Design",
                 "areaServed": {
-                    "@type": "Country",
+                    "@@type": "Country",
                     "name": "Indonesia"
                 },
                 "offers": {
-                    "@type": "Offer",
-                    "category": "{{ __('Interior Design') }}",
+                    "@@type": "Offer",
+                    "category": "Desain Interior",
                     "offeredBy": {
-                        "@type": "Organization",
+                        "@@type": "Organization",
                         "name": "PT. KINARYA MAESTRO NUSANTARA"
                     }
                 }
@@ -203,80 +203,80 @@
 {{-- Schema.org for Service Provider --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "{{ __('Construction Services') }}",
-    "description": "{{ __('Comprehensive construction services including commercial, residential, infrastructure, and renovation projects') }}",
+    "@@context": "https://schema.org",
+    "@@type": "Service",
+    "name": "Layanan Konstruksi",
+    "description": "Layanan konstruksi komprehensif termasuk proyek komersial, perumahan, infrastruktur, dan renovasi",
     "provider": {
-        "@type": "Organization",
+        "@@type": "Organization",
         "name": "PT. KINARYA MAESTRO NUSANTARA",
         "alternateName": "Maestro",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('img/general/logo.webp') }}",
         "contactPoint": {
-            "@type": "ContactPoint",
+            "@@type": "ContactPoint",
             "telephone": "+62-856-5656-8527",
             "contactType": "customer service",
-            "availableLanguage": ["Indonesian", "English"]
+            "availableLanguage": ["Indonesian"]
         }
     },
     "areaServed": {
-        "@type": "Country",
+        "@@type": "Country",
         "name": "Indonesia"
     },
     "serviceType": "Construction",
     "category": "Construction Services",
     "hasOfferCatalog": {
-        "@type": "OfferCatalog",
+        "@@type": "OfferCatalog",
         "name": "Construction Services Catalog",
         "itemListElement": [
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Commercial building') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Komersial"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('house building') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Perumahan"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('infrastructure') }}"
+                    "@@type": "Service",
+                    "name": "Infrastruktur"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('auxiliaries building') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Tambahan"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('New Building') }}"
+                    "@@type": "Service",
+                    "name": "Gedung Baru"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Renovation') }}"
+                    "@@type": "Service",
+                    "name": "Renovasi"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Interior Furniture') }}"
+                    "@@type": "Service",
+                    "name": "Furnitur Interior"
                 }
             }
         ]
@@ -287,76 +287,76 @@
 {{-- Schema.org for Business Process --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    "name": "{{ __('Construction Project Process') }}",
-    "description": "{{ __('Step-by-step process for construction projects at Maestro') }}",
+    "@@context": "https://schema.org",
+    "@@type": "HowTo",
+    "name": "Proses Proyek Konstruksi",
+    "description": "Proses langkah demi langkah untuk proyek konstruksi di Maestro",
     "image": "{{ asset('img/general/logo.webp') }}",
     "totalTime": "P90D",
     "estimatedCost": {
-        "@type": "MonetaryAmount",
+        "@@type": "MonetaryAmount",
         "currency": "IDR",
         "value": "100000000"
     },
     "supply": [
         {
-            "@type": "HowToSupply",
-            "name": "{{ __('Site Survey') }}"
+            "@@type": "HowToSupply",
+            "name": "Survei Lokasi"
         },
         {
-            "@type": "HowToSupply",
-            "name": "{{ __('Design Consultation') }}"
+            "@@type": "HowToSupply",
+            "name": "Konsultasi Desain"
         },
         {
-            "@type": "HowToSupply",
-            "name": "{{ __('BoQ and RAB') }}"
+            "@@type": "HowToSupply",
+            "name": "BoQ dan RAB"
         }
     ],
     "tool": [
         {
-            "@type": "HowToTool",
-            "name": "{{ __('Construction Equipment') }}"
+            "@@type": "HowToTool",
+            "name": "Peralatan Konstruksi"
         },
         {
-            "@type": "HowToTool",
-            "name": "{{ __('Professional Team') }}"
+            "@@type": "HowToTool",
+            "name": "Tim Profesional"
         }
     ],
     "step": [
         {
-            "@type": "HowToStep",
-            "name": "{{ __('Site Survey') }}",
-            "text": "{{ __('Conduct comprehensive site survey and analysis') }}",
+            "@@type": "HowToStep",
+            "name": "Survei Lokasi",
+            "text": "Melakukan survei dan analisis lokasi secara komprehensif",
             "url": "{{ url('/services') }}#step1"
         },
         {
-            "@type": "HowToStep",
-            "name": "{{ __('Design Consultation') }}",
-            "text": "{{ __('Create detailed drawings and design consultation') }}",
+            "@@type": "HowToStep",
+            "name": "Konsultasi Desain",
+            "text": "Membuat gambar detail dan konsultasi desain",
             "url": "{{ url('/services') }}#step2"
         },
         {
-            "@type": "HowToStep",
-            "name": "{{ __('BoQ and RAB') }}",
-            "text": "{{ __('Prepare Bill of Quantities and Budget Plan') }}",
+            "@@type": "HowToStep",
+            "name": "BoQ dan RAB",
+            "text": "Menyiapkan Bill of Quantities dan Rencana Anggaran Biaya",
             "url": "{{ url('/services') }}#step3"
         },
         {
-            "@type": "HowToStep",
-            "name": "{{ __('Job Execution') }}",
-            "text": "{{ __('Execute construction work according to plan') }}",
+            "@@type": "HowToStep",
+            "name": "Pelaksanaan Pekerjaan",
+            "text": "Melaksanakan pekerjaan konstruksi sesuai rencana",
             "url": "{{ url('/services') }}#step4"
         },
         {
-            "@type": "HowToStep",
-            "name": "{{ __('Work Addendum') }}",
-            "text": "{{ __('Handle any additional work or changes') }}",
+            "@@type": "HowToStep",
+            "name": "Addendum Pekerjaan",
+            "text": "Menangani pekerjaan tambahan atau perubahan",
             "url": "{{ url('/services') }}#step5"
         },
         {
-            "@type": "HowToStep",
-            "name": "{{ __('Handover of Work') }}",
-            "text": "{{ __('Complete project handover to client') }}",
+            "@@type": "HowToStep",
+            "name": "Serah Terima Pekerjaan",
+            "text": "Menyelesaikan serah terima proyek kepada klien",
             "url": "{{ url('/services') }}#step6"
         }
     ]

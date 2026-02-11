@@ -1,10 +1,10 @@
 @extends('layouts.main')
 
 @section('kepala')
+    @include('components.schema-portfolio')
     @php
         use Spatie\MediaLibrary\MediaCollections\Models\Media;
     @endphp
-    @include('components.schema-portfolio')
 @endsection
 
 @section('konten')
@@ -19,7 +19,7 @@
                             fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                                fill="#C22030" />
+                                fill="#EFBF04" />
                         </svg>
                     </div>
                 </div>
@@ -30,33 +30,33 @@
                         <div class="flex justify-center space-x-5">
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn active hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('all')">{{ __('All Portfolio') }}</button>
+                                onclick="filterSelection('all')">Semua Portofolio</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('construction')">{{ __('Construction') }}</button>
+                                onclick="filterSelection('construction')">Konstruksi</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('applicator')">{{ __('Applicator') }}</button>
+                                onclick="filterSelection('applicator')">Aplikator</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('design')">{{ __('Design Architectural') }}</button>
+                                onclick="filterSelection('design')">Desain Arsitektur</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('furniture')">{{ __('Furniture') }}</button>
+                                onclick="filterSelection('furniture')">Furnitur</button>
                         </div>
                         <div class="flex justify-center space-x-5">
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('commercial')">{{ __('Commercial Building') }}</button>
+                                onclick="filterSelection('commercial')">Gedung Komersial</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('house')">{{ __('Housing Building') }}</button>
+                                onclick="filterSelection('house')">Gedung Perumahan</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('infrastructure')">{{ __('Infrastructure') }}</button>
+                                onclick="filterSelection('infrastructure')">Infrastruktur</button>
                             <button
                                 class="px-10 py-3 rounded-full border-2 btn hover:bg-tombol hover:text-white hover:border-tombol"
-                                onclick="filterSelection('auxiliaries')">{{ __('Auxiliaries Building') }}</button>
+                                onclick="filterSelection('auxiliaries')">Gedung Pendukung</button>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                             fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                                fill="#C22030" />
+                                fill="#EFBF04" />
                         </svg>
                     </div>
                 </div>
@@ -84,31 +84,31 @@
                 <div id="myBtnContainer" class="flex flex-wrap gap-6 justify-center items-center py-4 md:py-8">
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('all')">{{ __('All Portfolio') }}</button>
+                        onclick="filterSelection('all')">Semua Portofolio</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('construction')">{{ __('Construction') }}</button>
+                        onclick="filterSelection('construction')">Konstruksi</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('applicator')">{{ __('Applicator') }}</button>
+                        onclick="filterSelection('applicator')">Aplikator</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('design')">{{ __('Design Architectural') }}</button>
+                        onclick="filterSelection('design')">Desain Arsitektur</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('furniture')">{{ __('Furniture') }}</button>
+                        onclick="filterSelection('furniture')">Furnitur</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('commercial')">{{ __('Commercial Building') }}</button>
+                        onclick="filterSelection('commercial')">Gedung Komersial</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('house')">{{ __('Housing Building') }}</button>
+                        onclick="filterSelection('house')">Gedung Perumahan</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('infrastructure')">{{ __('Infrastructure') }}</button>
+                        onclick="filterSelection('infrastructure')">Infrastruktur</button>
                     <button
                         class="px-5 py-1 rounded-full border-2 btn sm:px-10 sm:py-3 hover:bg-tombol hover:text-white hover:border-tombol"
-                        onclick="filterSelection('auxiliaries')">{{ __('Auxiliaries Building') }}</button>
+                        onclick="filterSelection('auxiliaries')">Gedung Pendukung</button>
                 </div>
             </div>
         </div>
@@ -118,14 +118,13 @@
     <section class="p-6 h-auto lg:p-20">
         <div class="container mx-auto 2xl:px-20">
             <div class="text-4xl font-extrabold text-center uppercase text-merah lg:text-5xl xl:text-left">
-                {{ __('Our Portfolio') }}
+                Portofolio Kami
             </div>
             <div class="my-20"></div>
             <div class="flex justify-center 2xl:justify-start">
                 <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:gap-5">
                     @forelse ($portofolio as $item)
-                        <div data-modal-target="default-modal-{{ $item->id }}"
-                            data-modal-toggle="default-modal-{{ $item->id }}"
+                        <div data-modal-target="default-modal-{{ $item->id }}" data-modal-toggle="default-modal-{{ $item->id }}"
                             class="max-h-[500px] w-80 hover:rounded-lg hover:shadow-2xl hover:drop-shadow-2xl hover:scale-105 hover:cursor-pointer group transition-all ease-in-out duration-300 kolom {{ $item->kategori }}">
                             <div class="h-72 bg-center bg-no-repeat bg-cover group-hover:rounded-t-lg"
                                 style="background-image: url('{{ $item ? $item->getFirstMediaUrl('portofolio') : asset('img/general/bg-banner.webp') }}')">
@@ -158,9 +157,8 @@
                                             data-modal-hide="default-modal-{{ $item->id }}">
                                             <svg class="h-2 w- sm:w-5 sm:h-5" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                                                <path stroke="currentColor" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="2"
-                                                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                                             </svg>
                                             <span class="sr-only">Close modal</span>
                                         </button>
@@ -181,8 +179,8 @@
                                                 @foreach ($collection as $c)
                                                     <div class="swiper-slide">
                                                         <div class="lg:h-[80vh]">
-                                                            <img src="{{ $c->original_url }}"
-                                                                class="object-contain w-full h-full" alt="design">
+                                                            <img src="{{ $c->original_url }}" class="object-contain w-full h-full"
+                                                                alt="desain">
                                                         </div>
                                                     </div>
                                                 @endforeach
@@ -212,8 +210,7 @@
                                                     <div
                                                         class="flex justify-center items-center self-center w-20 h-20 text-2xl rounded-full shadow-2xl opacity-50 drop-shadow-2xl bg-tombol group-hover:opacity-100">
                                                         <svg class="w-6 h-6 text-white" aria-hidden="true"
-                                                            xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                            viewBox="0 0 8 14">
+                                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                                             <path stroke="currentColor" stroke-linecap="round"
                                                                 stroke-linejoin="round" stroke-width="2"
                                                                 d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
@@ -231,8 +228,8 @@
                                                 @foreach ($collection as $c)
                                                     <div class="swiper-slide">
                                                         <div class="h-20 sm:h-32 lg:h-40">
-                                                            <img src="{{ $c->original_url }}"
-                                                                class="object-contain w-full h-full" alt="design">
+                                                            <img src="{{ $c->original_url }}" class="object-contain w-full h-full"
+                                                                alt="desain">
                                                         </div>
                                                     </div>
                                                 @endforeach
@@ -292,7 +289,7 @@
         var btnContainer = document.getElementById("myBtnContainer");
         var btns = btnContainer.getElementsByClassName("btn");
         for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
+            btns[i].addEventListener("click", function () {
                 var current = document.getElementsByClassName("active");
                 current[0].className = current[0].className.replace(" active", "");
                 this.className += " active";
@@ -305,7 +302,7 @@
         const thumbnailSwipers = [];
         const mainSwipers = [];
 
-        $('.mySwipers').each(function(i) {
+        $('.mySwipers').each(function (i) {
             const swiperId = $(this).attr('id');
 
             thumbnailSwipers[i] = new Swiper('#' + swiperId, {
@@ -317,7 +314,7 @@
             });
         });
 
-        $('.mySwiper2').each(function(i) {
+        $('.mySwiper2').each(function (i) {
             const swiperId = $(this).attr('id');
 
             mainSwipers[i] = new Swiper('#' + swiperId, {

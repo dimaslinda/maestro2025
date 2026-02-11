@@ -1,30 +1,30 @@
 {{-- Schema.org Organization --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Organization",
+    "@@context": "https://schema.org",
+    "@@type": "Organization",
     "name": "PT. KINARYA MAESTRO NUSANTARA",
     "alternateName": "Maestro",
     "url": "{{ url('/') }}",
     "logo": "{{ asset('img/general/logo.webp') }}",
-    "description": "{{ __('A General Contractor Company with experience in the construction sector, encompassing consultant work, construction implementation, project management, supervision and execution in the construction industry.') }}",
+    "description": "Perusahaan Kontraktor Umum berpengalaman di sektor konstruksi, meliputi pekerjaan konsultan, implementasi konstruksi, manajemen proyek, pengawasan dan eksekusi dalam industri konstruksi.",
     "foundingDate": "2020",
     "address": {
-        "@type": "PostalAddress",
+        "@@type": "PostalAddress",
         "addressCountry": "ID",
         "addressRegion": "Indonesia"
     },
     "contactPoint": {
-        "@type": "ContactPoint",
+        "@@type": "ContactPoint",
         "telephone": "+62-856-5656-8527",
         "contactType": "customer service",
-        "availableLanguage": ["Indonesian", "English"]
+        "availableLanguage": ["Indonesian"]
     },
     "sameAs": [
         "https://api.whatsapp.com/send?phone=6285656568527"
     ],
     "areaServed": {
-        "@type": "Country",
+        "@@type": "Country",
         "name": "Indonesia"
     },
     "serviceType": "General Contractor",
@@ -39,13 +39,13 @@
 {{-- Schema.org WebSite --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Maestro - Quality Construction with ISO Standards",
+    "@@context": "https://schema.org",
+    "@@type": "WebSite",
+    "name": "Maestro - Konstruksi Berkualitas dengan Standar ISO",
     "url": "{{ url('/') }}",
-    "description": "{{ __('ISO certified, we deliver high quality construction solutions to international standards.') }}",
+    "description": "Bersertifikat ISO, kami memberikan solusi konstruksi berkualitas tinggi dengan standar internasional.",
     "publisher": {
-        "@type": "Organization",
+        "@@type": "Organization",
         "name": "PT. KINARYA MAESTRO NUSANTARA"
     }
 }
@@ -54,16 +54,16 @@
 {{-- Schema.org BreadcrumbList --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+    "@@context": "https://schema.org",
+    "@@type": "BreadcrumbList",
     "itemListElement": [
         @foreach($breadcrumbs ?? [] as $index => $breadcrumb)
-        {
-            "@type": "ListItem",
-            "position": {{ $index + 1 }},
-            "name": "{{ $breadcrumb['name'] }}",
-            "item": "{{ $breadcrumb['url'] }}"
-        }@if(!$loop->last),@endif
+            {
+                "@@type": "ListItem",
+                "position": {{ $index + 1 }},
+                "name": {!! json_encode($breadcrumb['name']) !!},
+                "item": {!! json_encode($breadcrumb['url']) !!}
+            }{{ !$loop->last ? ',' : '' }}
         @endforeach
     ]
 }
@@ -72,20 +72,20 @@
 {{-- Schema.org LocalBusiness (for construction company) --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@@context": "https://schema.org",
+    "@@type": "LocalBusiness",
     "name": "PT. KINARYA MAESTRO NUSANTARA",
     "alternateName": "Maestro",
-    "description": "{{ __('A General Contractor Company with experience in the construction sector') }}",
+    "description": "Perusahaan Kontraktor Umum dengan pengalaman di sektor konstruksi",
     "url": "{{ url('/') }}",
     "telephone": "+62-856-5656-8527",
     "address": {
-        "@type": "PostalAddress",
+        "@@type": "PostalAddress",
         "addressCountry": "ID",
         "addressRegion": "Indonesia"
     },
     "geo": {
-        "@type": "GeoCoordinates",
+        "@@type": "GeoCoordinates",
         "latitude": "-6.2088",
         "longitude": "106.8456"
     },
@@ -94,67 +94,67 @@
     "currenciesAccepted": "IDR",
     "paymentAccepted": "Cash, Bank Transfer",
     "areaServed": {
-        "@type": "Country",
+        "@@type": "Country",
         "name": "Indonesia"
     },
     "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Construction Services",
+        "@@type": "OfferCatalog",
+        "name": "Layanan Konstruksi",
         "itemListElement": [
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Commercial building') }}",
-                    "description": "{{ __('Commercial building construction services') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Komersial",
+                    "description": "Layanan konstruksi bangunan komersial"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('house building') }}",
-                    "description": "{{ __('Residential house construction services') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Perumahan",
+                    "description": "Layanan konstruksi rumah tinggal"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('infrastructure') }}",
-                    "description": "{{ __('Infrastructure construction services') }}"
+                    "@@type": "Service",
+                    "name": "Infrastruktur",
+                    "description": "Layanan konstruksi infrastruktur"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('auxiliaries building') }}",
-                    "description": "{{ __('Auxiliary building construction services') }}"
+                    "@@type": "Service",
+                    "name": "Bangunan Tambahan",
+                    "description": "Layanan konstruksi bangunan tambahan"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('New Building') }}",
-                    "description": "{{ __('New building construction services') }}"
+                    "@@type": "Service",
+                    "name": "Gedung Baru",
+                    "description": "Layanan konstruksi gedung baru"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Renovation') }}",
-                    "description": "{{ __('Building renovation services') }}"
+                    "@@type": "Service",
+                    "name": "Renovasi",
+                    "description": "Layanan renovasi bangunan"
                 }
             },
             {
-                "@type": "Offer",
+                "@@type": "Offer",
                 "itemOffered": {
-                    "@type": "Service",
-                    "name": "{{ __('Interior Furniture') }}",
-                    "description": "{{ __('Interior design and furniture services') }}"
+                    "@@type": "Service",
+                    "name": "Furnitur Interior",
+                    "description": "Layanan desain interior dan furnitur"
                 }
             }
         ]
@@ -165,31 +165,31 @@
 {{-- Schema.org FAQ (for roadmap section) --}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
+    "@@context": "https://schema.org",
+    "@@type": "FAQPage",
     "mainEntity": [
         {
-            "@type": "Question",
-            "name": "{{ __('What is the process for B2C construction projects?') }}",
+            "@@type": "Question",
+            "name": "Bagaimana proses untuk proyek konstruksi B2C?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "{{ __('The B2C process includes: 1) Site Survey, 2) Drawing and Design Consultation, 3) Making BoQ and RAB, 4) Job Execution, 5) Work Addendum, 6) Handover of Work') }}"
+                "@@type": "Answer",
+                "text": "Proses B2C meliputi: 1) Survei Lokasi, 2) Konsultasi Gambar dan Desain, 3) Pembuatan BoQ dan RAB, 4) Pelaksanaan Pekerjaan, 5) Addendum Pekerjaan, 6) Serah Terima Pekerjaan"
             }
         },
         {
-            "@type": "Question",
-            "name": "{{ __('What is the process for B2B construction projects?') }}",
+            "@@type": "Question",
+            "name": "Bagaimana proses untuk proyek konstruksi B2B?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "{{ __('The B2B process includes: 1) Get Tender Information, 2) Retrieve Tender Requirements and BoQ Documents, 3) Collection of RAB Bidding Document Files, 4) Determination of Tender Winner, 5) Work Contract, 6) Survey, Measurement & Job Execution, 7) Work Addendum, 8) Handover of Work') }}"
+                "@@type": "Answer",
+                "text": "Proses B2B meliputi: 1) Dapatkan Informasi Tender, 2) Ambil Dokumen Persyaratan Tender dan BoQ, 3) Pengumpulan File Dokumen Penawaran RAB, 4) Penetapan Pemenang Tender, 5) Kontrak Kerja, 6) Survei, Pengukuran & Pelaksanaan Pekerjaan, 7) Addendum Pekerjaan, 8) Serah Terima Pekerjaan"
             }
         },
         {
-            "@type": "Question",
-            "name": "{{ __('What services does Maestro provide?') }}",
+            "@@type": "Question",
+            "name": "Layanan apa saja yang disediakan Maestro?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "{{ __('Maestro provides comprehensive construction services including commercial building, house building, infrastructure, auxiliary building, new building construction, renovation, and interior furniture services.') }}"
+                "@@type": "Answer",
+                "text": "Maestro menyediakan layanan konstruksi komprehensif termasuk bangunan komersial, bangunan perumahan, infrastruktur, bangunan tambahan, konstruksi gedung baru, renovasi, dan layanan furnitur interior."
             }
         }
     ]
