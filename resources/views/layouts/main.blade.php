@@ -38,12 +38,12 @@
                             alt="Logo"></a>
                     {{-- Social Media Icons --}}
                     <div class="flex space-x-2 border-l border-gray-700 pl-3">
-                        <a href="https://www.instagram.com/kontraktormaestro/" target="_blank"
+                        <a href="https://www.instagram.com/kinaryakonstruksi?igsh=MW5jY3JoejRsYXZndQ==" target="_blank"
                             class="text-merah text-xl"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="https://www.linkedin.com/in/maestro-kontraktor-a23799265/" target="_blank"
-                            class="text-merah text-xl"><ion-icon name="logo-linkedin"></ion-icon></a>
-                        <a href="https://www.youtube.com/@maestrokontraktor1202" target="_blank"
-                            class="text-merah text-xl"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/kinarya-konstruksi-a23799265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            target="_blank" class="text-merah text-xl"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.tiktok.com/@kinaryakonstruksi?_r=1&_t=ZS-93scfZO1w7L" target="_blank"
+                            class="text-merah text-xl"><ion-icon name="logo-tiktok"></ion-icon></a>
                     </div>
                 </div>
 
