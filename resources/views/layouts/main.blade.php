@@ -34,7 +34,7 @@
         <nav class="bg-hitam fixed w-full z-50 top-0 start-0">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div class="flex items-center space-x-3">
-                    <a href="/"><img src="{{ asset('img/general/logo-baru.webp') }}" class="h-16 md:h-20"
+                    <a href="/"><img src="{{ asset('img/general/logo-baru.webp') }}?v=2" class="h-16 md:h-20"
                             alt="Logo"></a>
                     {{-- Social Media Icons --}}
                     <div class="flex space-x-2 border-l border-gray-700 pl-3">
