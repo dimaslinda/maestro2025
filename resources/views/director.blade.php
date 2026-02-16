@@ -12,21 +12,21 @@
                         viewBox="0 0 245 529" fill="none">
                         <path opacity="0.71"
                             d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                            stroke="#EFBF04" />
+                            stroke="#c22030" />
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg"
                         class="w-40 sm:w-52 2xl:w-80 absolute top-0 right-24 sm:right-32 2xl:right-48" viewBox="0 0 245 529"
                         fill="none">
                         <path opacity="0.71"
                             d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                            stroke="#EFBF04" />
+                            stroke="#c22030" />
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg"
                         class="w-40 sm:w-52 2xl:w-80 absolute top-0 right-48 sm:right-64 2xl:right-96" viewBox="0 0 245 529"
                         fill="none">
                         <path opacity="0.71"
                             d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                            stroke="#EFBF04" />
+                            stroke="#c22030" />
                     </svg>
                 </div>
             </div>
@@ -51,10 +51,10 @@
                 Presiden Direktur
             </div>
             <div class="my-10 text-lg text-justify text-white">
-                Bapak Subhan adalah Direktur Kinarya Konstruksi, sebuah perusahaan konstruksi yang dikenal dengan
+                Bapak Subhan adalah Direktur Kinarya Maestro Nusantara, sebuah perusahaan konstruksi yang dikenal dengan
                 komitmennya
                 terhadap kualitas dan penyelesaian proyek yang tepat waktu. Dengan pengalaman yang luas di industri ini,
-                beliau memimpin Kinarya Konstruksi dalam memberikan solusi konstruksi yang inovatif, mulai dari
+                beliau memimpin Kinarya Maestro Nusantara dalam memberikan solusi konstruksi yang inovatif, mulai dari
                 proyek-proyek
                 bangunan komersial hingga infrastruktur berskala besar. Dedikasi dan kepemimpinannya memastikan bahwa
                 setiap proyek berjalan secara efisien, mematuhi standar keselamatan, dan memberikan hasil yang terbaik
@@ -80,11 +80,11 @@
                     Presiden Direktur
                 </div>
                 <div class="my-5 text-lg text-justify text-white">
-                    Bapak Subhan adalah Direktur Kinarya Konstruksi, sebuah perusahaan konstruksi yang dikenal dengan
+                    Bapak Subhan adalah Direktur Kinarya Maestro Nusantara, sebuah perusahaan konstruksi yang dikenal dengan
                     komitmennya
                     terhadap kualitas dan penyelesaian proyek yang tepat waktu. Dengan pengalaman yang luas di industri
                     ini,
-                    beliau memimpin Kinarya Konstruksi dalam memberikan solusi konstruksi yang inovatif, mulai dari
+                    beliau memimpin Kinarya Maestro Nusantara dalam memberikan solusi konstruksi yang inovatif, mulai dari
                     proyek-proyek
                     bangunan komersial hingga infrastruktur berskala besar. Dedikasi dan kepemimpinannya memastikan
                     bahwa

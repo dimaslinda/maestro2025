@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('judul', 'Kinarya Konstruksi')
+@section('judul', 'PT. Maestro Kontraktor')
 
 @section('kepala')
     <style>
@@ -148,7 +148,7 @@
                         style="right: {{ $i * 12 }}rem;" viewBox="0 0 245 529" fill="none">
                         <path opacity="0.71"
                             d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                            stroke="#EFBF04" />
+                            stroke="#c22030" />
                     </svg>
                 @endfor
             </div>
@@ -157,35 +157,35 @@
             <div class="flex flex-col lg:flex-row-reverse">
                 <div class="flex relative z-10 justify-center lg:w-1/2">
                     <img src="{{ asset('img/general/welcome.webp') }}" class="lg:absolute lg:bottom-0 lg:right-0"
-                        alt="welcome kinarya Konstruksi">
+                        alt="welcome maestro">
                 </div>
                 <div class="mt-10 lg:w-1/2">
                     <div
-                        class="bg-clip-text text-transparent font-league font-bold uppercase text-3xl text-center sm:text-5xl lg:text-left bg-[linear-gradient(180deg,_#EFBF04_42%,_#272757_100%)]">
+                        class="bg-clip-text text-transparent font-league font-bold uppercase text-3xl text-center sm:text-5xl lg:text-left bg-[linear-gradient(180deg,_#C22030_42.16%,_#FFF_100%)]">
                         Selamat Datang Di
                     </div>
-                    <div class="relative mt-4 lg:-mt-2 mb-20 sm:mb-32 lg:mb-10">
+                    <div class="relative mt-4 lg:mt-10 mb-20 sm:mb-32 lg:mb-5">
                         {{-- Heading Container --}}
                         <div
                             class="relative z-10 flex flex-col items-center lg:items-start font-league font-bold uppercase text-3xl sm:text-[10rem] leading-[0.8] tracking-tighter">
                             {{-- Word 1 --}}
-                            <div class="relative">
-                                <span
-                                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#EFBF04_42%,_#272757_100%)] block py-4 px-2">
-                                    Kinarya
-                                </span>
-                                <span class="absolute top-1 left-0 z-[-1] text-stroke opacity-20 select-none px-2 py-4">
-                                    Kinarya
-                                </span>
-                            </div>
+                            <!-- <div class="relative">
+                                                                            <span
+                                                                                class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#c22030_42%,_#272757_100%)] block py-4 px-2">
+                                                                                Kinarya
+                                                                            </span>
+                                                                            <span class="absolute top-1 left-0 z-[-1] text-stroke opacity-20 select-none px-2 py-4">
+                                                                                Kinarya
+                                                                            </span>
+                                                                        </div> -->
                             {{-- Word 2 --}}
-                            <div class="relative lg:-mt-8">
+                            <div class="relative">
                                 <h1
-                                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#EFBF04_42%,_#272757_100%)] block py-4 px-2">
-                                    Konstruksi
+                                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#C22030_42.16%,_#FFF_100%)] block py-4 px-2">
+                                    Maestro
                                 </h1>
                                 <span class="absolute top-1 left-0 z-[-1] text-stroke opacity-20 select-none px-2 py-4">
-                                    Konstruksi
+                                    Maestro
                                 </span>
                             </div>
                         </div>
@@ -218,20 +218,20 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-24 sm:w-32 lg:w-52" viewBox="0 0 321 325" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div class="absolute right-2 top-10 sm:right-0 bouncing-cube">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-14 sm:w-20 lg:w-32" viewBox="0 0 181 177" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
 
             <div class="relative z-10 my-10 lg:my-32">
                 <h3 class="text-4xl font-bold text-center text-white uppercase font-league lg:text-7xl">
-                    Tentang <br> Kinarya Konstruksi
+                    Tentang <br> maestro
                 </h3>
                 <div class="-mt-3 text-sm font-bold text-center text-white uppercase lg:text-2xl">
                     Kontraktor Umum
@@ -239,7 +239,7 @@
                 <div class="my-10"></div>
                 <div class="font-extralight text-white font-inter sm:text-xl lg:px-32 lg:text-lg">
                     <h1 class="mb-5 text-xl font-bold text-center sm:text-left">
-                        PT. KINARYA KONSTRUKSI
+                        PT. Kinarya Maestro Nusantara
                     </h1>
                     <p class="mb-5 text-lg text-justify text-white">
                         <span class="font-bold">Kontraktor Umum</span> perusahaan dengan pengalaman di bidang <span
@@ -250,9 +250,9 @@
                         yang luas di <span>sektor konstruksi.</span>
                     </p>
                     <p class="text-lg text-justify text-white">
-                        Kinarya Konstruksi didukung oleh tenaga kerja yang kuat dengan <span class="font-bold">pengalaman
+                        maestro didukung oleh tenaga kerja yang kuat dengan <span class="font-bold">pengalaman
                             yang
-                            signifikan</span> di sektor konstruksi, menunjukkan komitmen Kinarya Konstruksi untuk
+                            signifikan</span> di sektor konstruksi, menunjukkan komitmen maestro untuk
                         menyediakan <span class="font-bold">layanan berkualitas tinggi.</span>
                     </p>
                 </div>
@@ -503,7 +503,7 @@
                     fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div class="absolute left-5 top-32 z-10 lg:top-40 xl:top-52 lg:left-0 bouncing-cube">
@@ -511,7 +511,7 @@
                     fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div
@@ -528,7 +528,7 @@
                             <img src="{{ $p->getFirstMediaUrl('portofolio') ?: asset('img/general/bg-banner.webp') }}"
                                 class="object-cover w-full h-full" alt="portfolio">
                         </div>
-                        <div class="absolute w-full h-full bg-gradient-to-r from-[#272757] to-transparent top-0 left-0">
+                        <div class="absolute w-full h-full bg-gradient-to-r from-[#191919] to-transparent top-0 left-0">
                             <div class="container mx-auto">
                                 <div class="text-white mt-40 min-[1800px]:mt-72 ml-3 sm:ml-20 lg:ml-0 xl:ml-40 w-full xl:w-1/2">
                                     <p
@@ -598,7 +598,7 @@
                 fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                    fill="#EFBF04" />
+                    fill="#c22030" />
             </svg>
         </div>
         <div class="absolute top-10 right-20 lg:top-10 bouncing-cube">
@@ -606,7 +606,7 @@
                 fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                    fill="#EFBF04" />
+                    fill="#c22030" />
             </svg>
         </div>
         <div class="container relative mx-auto h-32 sm:h-24 lg:h-32">
@@ -655,7 +655,7 @@
                             </h2>
                             <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
                                 <div class="p-5 border-2 border-merah bg-hitam">
-                                    <p class="text-white font-inter">Hampir semua pekerjaan di Kinarya Konstruksi harus
+                                    <p class="text-white font-inter">Hampir semua pekerjaan di maestro harus
                                         dimulai dengan
                                         melakukan survei agar Anda dapat menyampaikan semua detail impian bangunan Anda
                                         kepada kami sehingga kami dapat menganalisisnya dengan benar.</p>
@@ -960,21 +960,21 @@
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.3"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="absolute top-0 right-24 w-40 sm:w-52 2xl:w-80 sm:right-32 2xl:right-48" viewBox="0 0 245 529"
                     fill="none">
                     <path opacity="0.3"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="absolute top-0 right-48 w-40 sm:w-52 2xl:w-80 sm:right-64 2xl:right-96" viewBox="0 0 245 529"
                     fill="none">
                     <path opacity="0.3"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -995,7 +995,7 @@
                             <div class="swiper-slide tranding-slide">
                                 <div class="tranding-slide-img">
                                     <img src="{{ asset('img/general/legal-corp-' . $imgNum . '.png') }}"
-                                        alt="Kinarya Konstruksi Legalitas {{ $i }}">
+                                        alt="maestro Legalitas {{ $i }}">
                                 </div>
                             </div>
                         @endfor
@@ -1058,7 +1058,7 @@
                     </h2>
                     <div class="w-20 h-2 lg:mx-0 mx-auto bg-merah mb-8"></div>
                     <p class="text-gray-300 text-lg lg:text-xl font-inter leading-relaxed">
-                        Kami bangga mempersembahkan dokumentasi visual dari karya-karya terbaik PT. KINARYA KONSTRUKSI dalam
+                        Kami bangga mempersembahkan dokumentasi visual dari karya-karya terbaik PT. maestro dalam
                         mewujudkan impian konstruksi Anda.
                     </p>
 
@@ -1102,7 +1102,7 @@
                                     <div class="relative aspect-video bg-black">
                                         <iframe class="w-full h-full"
                                             src="https://www.youtube.com/embed/{{ $vid }}?enablejsapi=1&rel=0"
-                                            title="Kinarya Konstruksi Project Video" frameborder="0"
+                                            title="maestro Project Video" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>

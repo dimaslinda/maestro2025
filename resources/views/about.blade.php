@@ -12,25 +12,25 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-24 sm:w-32 lg:w-52" viewBox="0 0 321 325" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div class="absolute top-10 right-2 sm:right-0 bouncing-cube">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-14 sm:w-20 lg:w-32" viewBox="0 0 181 177" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
 
             <div class="my-10 lg:my-32 relative z-10">
                 <h3 class="text-white uppercase font-bold font-inter text-4xl lg:text-7xl text-center">
-                    Tentang <br> Kinarya Konstruksi
+                    Tentang <br> Maestro
                 </h3>
                 <div class="my-10"></div>
                 <div class="text-white font-extralight font-inter lg:px-32">
                     <h1 class="mb-5 font-bold text-xl">
-                        PT. KINARYA KONSTRUKSI
+                        PT. Kinarya Maestro Nusantara
                     </h1>
                     <p class="mb-5 text-lg text-justify">
                         <span class="font-bold">Kontraktor Umum</span>
@@ -44,9 +44,9 @@
                         <span class="capitalize">sektor konstruksi.</span>
                     </p>
                     <p class="text-lg text-justify">
-                        Kinarya Konstruksi didukung oleh tenaga kerja yang kuat dengan <span
+                        Maestro Kontraktor didukung oleh tenaga kerja yang kuat dengan <span
                             class="font-bold capitalize">pengalaman yang signifikan</span>
-                        di sektor konstruksi, menunjukkan komitmen Kinarya Konstruksi untuk menyediakan
+                        di sektor konstruksi, menunjukkan komitmen Maestro Kontraktor untuk menyediakan
                         <span class="font-bold capitalize">layanan berkualitas tinggi.</span>
                     </p>
                 </div>
@@ -64,11 +64,11 @@
         <div
             class="h-full bg-merah w-3/6 lg:w-3/4 xl:w-3/6 absolute right-1/3 translate-x-1/2 py-20 2xl:py-32 pr-5 2xl:pr-20 pl-32 xl:pl-32 2xl:pl-52">
             <div
-                class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#EFBF04_100%)] font-inter text-6xl font-bold uppercase">
+                class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#c22030_100%)] font-inter text-6xl font-bold uppercase">
                 Visi Dan
             </div>
             <div
-                class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#EFBF04_100%)] font-inter text-8xl -mt-3 uppercase font-bold ">
+                class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#c22030_100%)] font-inter text-8xl -mt-3 uppercase font-bold ">
                 Misi
             </div>
             <div class="mt-20">
@@ -106,11 +106,11 @@
         <div class="bg-merah h-auto py-10">
             <div class="container mx-auto p-6">
                 <div
-                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#EFBF04_100%)] font-inter text-5xl font-bold uppercase text-center">
+                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#c22030_100%)] font-inter text-5xl font-bold uppercase text-center">
                     Visi Dan
                 </div>
                 <div
-                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#EFBF04_100%)] font-inter text-7xl -mt-3 uppercase font-bold text-center">
+                    class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_53%,_#c22030_100%)] font-inter text-7xl -mt-3 uppercase font-bold text-center">
                     Misi
                 </div>
                 <div class="mt-10">
@@ -145,21 +145,21 @@
             fill="none">
             <path opacity="0.71"
                 d="M120.48 841.654H94.0385V617.226L230.198 422.243L230.479 421.84L230.244 421.406L1.42869 0.798471H93.2401H160.906L389.291 439.158L120.48 841.654Z"
-                stroke="#EFBF04" />
+                stroke="#c22030" />
         </svg>
         <svg xmlns="http://www.w3.org/2000/svg"
             class="w-40 sm:w-52 2xl:w-80 absolute -bottom-32 lg:-bottom-52 2xl:-bottom-80 left-10 sm:left-14 2xl:left-24"
             viewBox="0 0 390 843" fill="none">
             <path opacity="0.71"
                 d="M120.48 841.654H94.0385V617.226L230.198 422.243L230.479 421.84L230.244 421.406L1.42869 0.798471H93.2401H160.906L389.291 439.158L120.48 841.654Z"
-                stroke="#EFBF04" />
+                stroke="#c22030" />
         </svg>
         <svg xmlns="http://www.w3.org/2000/svg"
             class="w-40 sm:w-52 2xl:w-80 absolute -bottom-32 lg:-bottom-52 2xl:-bottom-80 left-40 sm:left-44 2xl:left-72"
             viewBox="0 0 390 843" fill="none">
             <path opacity="0.71"
                 d="M120.48 841.654H94.0385V617.226L230.198 422.243L230.479 421.84L230.244 421.406L1.42869 0.798471H93.2401H160.906L389.291 439.158L120.48 841.654Z"
-                stroke="#EFBF04" />
+                stroke="#c22030" />
         </svg>
         <div class="container mx-auto p-6">
             <div class="my-20">
@@ -322,7 +322,7 @@
                 fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                    fill="#EFBF04" />
+                    fill="#c22030" />
             </svg>
         </div>
         <div class="absolute bottom-14 sm:bottom-[30%] left-5 lg:left-0 bouncing-cube">
@@ -330,7 +330,7 @@
                 fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                    fill="#EFBF04" />
+                    fill="#c22030" />
             </svg>
         </div>
         <div class="absolute top-10 lg:top-10 right-20 bouncing-cube">
@@ -338,7 +338,7 @@
                 fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                    fill="#EFBF04" />
+                    fill="#c22030" />
             </svg>
         </div>
         <div class="relative left-1/2 transform -translate-y-1/2 z-[11]">
@@ -346,21 +346,21 @@
                 <div
                     class="absolute bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#272757_100%)] uppercase text-6xl sm:text-[7rem] top-12 sm:top-14  font-[800] transform -translate-x-1/2 whitespace-nowrap">
                     <h2 class="">
-                        Kinarya Konstruksi
+                        Maestro Team
                     </h2>
                 </div>
             </div>
             <h1
                 class="text-stroke-service uppercase absolute top-28 sm:top-[10rem] text-6xl sm:text-[7rem] transform -translate-x-1/2 whitespace-nowrap">
-                Kinarya Konstruksi
+                Maestro Team
             </h1>
             <h1
                 class="text-stroke-service uppercase absolute top-44 sm:top-[17rem] transform -translate-x-1/2 text-6xl sm:text-[7rem] whitespace-nowrap">
-                Kinarya Konstruksi
+                Maestro Team
             </h1>
             <h1
                 class="text-stroke-service uppercase absolute top-60 sm:top-[24rem] transform -translate-x-1/2 text-6xl sm:text-[7rem] whitespace-nowrap">
-                Kinarya Konstruksi
+                Maestro Team
             </h1>
         </div>
         <div class="flex justify-center mt-52 relative z-[11]">

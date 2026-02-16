@@ -11,17 +11,17 @@
             <a href="https://www.instagram.com/kontraktormaestro/" target="_blank"
                 class="flex items-center gap-2 hover:opacity-80">
                 <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
-                <span>kinaryakonstruksi</span>
+                <span>Maestro Kontraktor</span>
             </a>
             <a href="https://www.linkedin.com/in/maestro-kontraktor-a23799265/" target="_blank"
                 class="flex items-center gap-2 hover:opacity-80">
                 <ion-icon name="logo-linkedin" class="text-2xl"></ion-icon>
-                <span>Kinarya Konstruksi</span>
+                <span>Maestro Kontraktor</span>
             </a>
             <a href="https://www.youtube.com/@maestrokontraktor1202" target="_blank"
                 class="flex items-center gap-2 hover:opacity-80">
                 <ion-icon name="logo-youtube" class="text-2xl"></ion-icon>
-                <span>Kinarya Konstruksi</span>
+                <span>Maestro Kontraktor</span>
             </a>
             <a href="https://api.whatsapp.com/send?phone=6285656568527" target="_blank"
                 class="flex items-center gap-2 hover:opacity-80">

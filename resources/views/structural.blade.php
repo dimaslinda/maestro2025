@@ -12,14 +12,14 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-24 sm:w-32 lg:w-52" viewBox="0 0 321 325" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M42.4253 0.425293L3.42829e-06 37.2568L0 324.747H278.794L320.486 287.496V138.288H182.367V0.425293H42.4253ZM43.0034 1.95989L2.34106 37.2568H139.904L179.583 1.95989H43.0034ZM140.676 174.184V38.6244L180.833 2.90229V138.68L140.676 174.184ZM181.857 139.822L141.935 175.119H277.773L317.973 139.822H181.857ZM318.951 141.006L278.794 176.265V322.689L318.951 286.801V141.006ZM1.53465 323.213H277.26V176.654H139.141V38.7915H1.53465V323.213Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div class="absolute top-10 right-2 sm:right-5 bouncing-cube">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-14 sm:w-20 lg:w-32" viewBox="0 0 181 177" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M41.419 0.849609L0.0200195 37.1696V176.311H139.161L180.085 139.569V0.849609H41.419ZM42.004 2.38426L2.34702 37.1696H138.103L177.298 2.38426H42.004ZM178.551 3.32403L139.161 38.282V174.248L178.551 138.879V3.32403ZM1.55502 174.776H137.627V38.7042H1.55502V174.776Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
             </div>
             <div class="container mx-auto p-6 sm:p-20 2xl:p-32 relative">
@@ -39,7 +39,7 @@
         <div class="h-full absolute bottom-0 left-0 xl:-left-[400px] 2xl:left-0">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-full" viewBox="0 0 690 431" fill="none">
                 <g filter="url(#filter0_d_577_724)">
-                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#EFBF04" />
+                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#c22030" />
                 </g>
                 <defs>
                     <filter id="filter0_d_577_724" x="-6" y="0" width="696" height="439" filterUnits="userSpaceOnUse"
@@ -121,21 +121,21 @@
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-24 sm:right-32 lg:right-2 2xl:right-20"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-48 sm:right-64 lg:right-32 2xl:right-72"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -145,7 +145,7 @@
     <section class="h-auto bg-hitam relative overflow-hidden" id="house-building">
         <div class="h-full absolute bottom-0 right-0 xl:-right-[400px] 2xl:right-0 ">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-full " viewBox="0 0 688 431" fill="none">
-                <path d="M688 0H57L0 272.5L57 431H688V0Z" fill="#EFBF04" />
+                <path d="M688 0H57L0 272.5L57 431H688V0Z" fill="#c22030" />
             </svg>
         </div>
         <div class="relative">
@@ -212,21 +212,21 @@
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 left-24 sm:left-32 lg:left-2 2xl:left-20"
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 left-48 sm:left-64 lg:left-32 2xl:left-72"
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -237,7 +237,7 @@
         <div class="h-full absolute bottom-0 left-0 xl:-left-[400px] 2xl:left-0">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-full" viewBox="0 0 690 431" fill="none">
                 <g filter="url(#filter0_d_577_724)">
-                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#EFBF04" />
+                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#c22030" />
                 </g>
                 <defs>
                     <filter id="filter0_d_577_724" x="-6" y="0" width="696" height="439" filterUnits="userSpaceOnUse"
@@ -318,21 +318,21 @@
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-24 sm:right-32 lg:right-2 2xl:right-20"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-48 sm:right-64 lg:right-32 2xl:right-72"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -342,7 +342,7 @@
     <section class="h-auto bg-hitam relative overflow-hidden" id="building">
         <div class="h-full absolute bottom-0 right-0 xl:-right-[400px] 2xl:right-0 ">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-full " viewBox="0 0 688 431" fill="none">
-                <path d="M688 0H57L0 272.5L57 431H688V0Z" fill="#EFBF04" />
+                <path d="M688 0H57L0 272.5L57 431H688V0Z" fill="#c22030" />
             </svg>
         </div>
         <div class="relative">
@@ -408,21 +408,21 @@
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 left-24 sm:left-32 lg:left-2 2xl:left-20"
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 left-48 sm:left-64 lg:left-32 2xl:left-72"
                     viewBox="0 0 193 414" fill="none">
                     <path opacity="0.71"
                         d="M60.2154 1.15088H47.2447V111.238L114.037 206.881L114.175 207.079L114.06 207.292L1.81542 413.609H46.853H80.0463L192.079 198.584L60.2154 1.15088Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -433,7 +433,7 @@
         <div class="h-full absolute bottom-0 left-0 xl:-left-[400px] 2xl:left-0">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-full" viewBox="0 0 690 431" fill="none">
                 <g filter="url(#filter0_d_577_724)">
-                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#EFBF04" />
+                    <path d="M-2 0H629L686 272.5L629 431H-2V0Z" fill="#c22030" />
                 </g>
                 <defs>
                     <filter id="filter0_d_577_724" x="-6" y="0" width="696" height="439" filterUnits="userSpaceOnUse"
@@ -525,21 +525,21 @@
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-24 sm:right-32 lg:right-2 2xl:right-20"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-48 sm:right-64 lg:right-32 2xl:right-72"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -558,11 +558,11 @@
                 <div class="flex flex-col items-center my-10 gap-5">
                     <div class="flex flex-col md:flex-row justify-center item-center gap-5 w-full">
                         <!-- Card 1 -->
-                        <div class="bg-[#efbf04] rounded-none p-6 sm:p-8 md:md:max-w-xs w-full relative overflow-hidden"
+                        <div class="bg-[#191919] rounded-none p-6 sm:p-8 md:md:max-w-xs w-full relative overflow-hidden"
                             style="box-shadow: none;">
                             <div class="absolute top-8 -right-5 mb-6">
                                 <img src="{{ asset('img/general/logocard.webp') }}" class="opacity-40"
-                                    style="background-color: #efbf04;" alt="logo Kinarya Konstruksi">
+                                    style="background-color: #191919;" alt="logo Kinarya Konstruksi">
                                 <div class="h-16"></div>
                             </div>
                             <div class="z-10 relative mt-20">
@@ -577,11 +577,11 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="bg-[#efbf04] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
+                        <div class="bg-[#191919] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
                             style="box-shadow: none;">
                             <div class="absolute top-8 -right-5 mb-6">
                                 <img src="{{ asset('img/general/logocard.webp') }}" class="opacity-40"
-                                    style="background-color: #efbf04;" alt="logo Kinarya Konstruksi">
+                                    style="background-color: #191919;" alt="logo Kinarya Konstruksi">
                                 <div class="h-16"></div>
                             </div>
                             <div class="z-10 relative mt-20">
@@ -595,11 +595,11 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="bg-[#efbf04] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
+                        <div class="bg-[#191919] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
                             style="box-shadow: none;">
                             <div class="absolute top-8 -right-5 mb-6">
                                 <img src="{{ asset('img/general/logocard.webp') }}" class="opacity-40"
-                                    style="background-color: #efbf04;" alt="logo Kinarya Konstruksi">
+                                    style="background-color: #191919;" alt="logo Kinarya Konstruksi">
                                 <div class="h-16"></div>
                             </div>
                             <div class="z-10 relative mt-20">
@@ -615,11 +615,11 @@
                     </div>
                     <div class="flex flex-col md:flex-row justify-center item-center gap-5 w-full">
                         <!-- Card 4 -->
-                        <div class="bg-[#efbf04] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
+                        <div class="bg-[#191919] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
                             style="box-shadow: none;">
                             <div class="absolute top-8 -right-5 mb-6">
                                 <img src="{{ asset('img/general/logocard.webp') }}" class="opacity-40"
-                                    style="background-color: #efbf04;" alt="logo Kinarya Konstruksi">
+                                    style="background-color: #191919;" alt="logo Kinarya Konstruksi">
                                 <div class="h-16"></div>
                             </div>
                             <div class="z-10 relative mt-20">
@@ -633,11 +633,11 @@
                             </div>
                         </div>
                         <!-- Card 5 -->
-                        <div class="bg-[#efbf04] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
+                        <div class="bg-[#191919] rounded-none p-6 sm:p-8 md:max-w-xs w-full relative overflow-hidden"
                             style="box-shadow: none;">
                             <div class="absolute top-8 -right-5 mb-6">
                                 <img src="{{ asset('img/general/logocard.webp') }}" class="opacity-40"
-                                    style="background-color: #efbf04;" alt="logo Kinarya Konstruksi">
+                                    style="background-color: #191919;" alt="logo Kinarya Konstruksi">
                                 <div class="h-16"></div>
                             </div>
                             <div class="z-10 relative mt-20">
@@ -687,21 +687,21 @@
                     fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-24 lg:right-2 2xl:right-20" viewBox="0 0 245 529"
                     fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-40 sm:w-52 2xl:w-80 absolute bottom-0 right-48 sm:right-64 lg:right-32 2xl:right-72"
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -765,21 +765,21 @@
                     viewBox="0 0 245 529" fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="absolute top-0 right-24 w-40 sm:w-52 2xl:w-80 sm:right-32 2xl:right-48" viewBox="0 0 245 529"
                     fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="absolute top-0 right-48 w-40 sm:w-52 2xl:w-80 sm:right-64 2xl:right-96" viewBox="0 0 245 529"
                     fill="none">
                     <path opacity="0.71"
                         d="M168.923 1.4707H185.482V142.137L100.212 264.348L100.036 264.601L100.183 264.873L243.479 528.5H185.982H143.606L0.580139 253.746L168.923 1.4707Z"
-                        stroke="#EFBF04" />
+                        stroke="#c22030" />
                 </svg>
             </div>
         </div>
@@ -791,15 +791,15 @@
             <div class="w-1/2 relative z-[12] hidden xl:block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-full" viewBox="0 0 1597 1229" fill="none">
                     <path d="M1443.49 0.544922H0.0917969V1228.64H1443.49L1596.18 458.968L1443.49 0.544922Z"
-                        fill="#EFBF04" />
+                        fill="#c22030" />
                 </svg>
                 <div class="absolute top-0 left-0 z-[13] lg:p-10 2xl:p-20">
                     <div
-                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#EFBF04_100%)] text-4xl sm:text-6xl lg:text-5xl 2xl:text-7xl font-bold font-inter uppercase">
+                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#c22030_100%)] text-4xl sm:text-6xl lg:text-5xl 2xl:text-7xl font-bold font-inter uppercase">
                         KOMITMEN
                     </div>
                     <div
-                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#EFBF04_100%)] text-4xl sm:text-6xl lg:text-5xl 2xl:text-7xl font-bold font-inter uppercase -mt-3">
+                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#c22030_100%)] text-4xl sm:text-6xl lg:text-5xl 2xl:text-7xl font-bold font-inter uppercase -mt-3">
                         KAMI
                     </div>
                     <ul class="list-inside space-y-5 mt-10">
@@ -853,11 +853,11 @@
             <div class="block xl:hidden">
                 <div class="bg-merah w-full h-auto relative py-10">
                     <div
-                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#EFBF04_100%)] text-4xl sm:text-6xl 2xl:text-8xl font-bold font-inter uppercase text-center">
+                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#c22030_100%)] text-4xl sm:text-6xl 2xl:text-8xl font-bold font-inter uppercase text-center">
                         KOMITMEN
                     </div>
                     <div
-                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#EFBF04_100%)] text-4xl sm:text-6xl 2xl:text-8xl font-bold font-inter uppercase -mt-3 text-center">
+                        class="bg-clip-text text-transparent bg-[linear-gradient(180deg,_#fff_42%,_#c22030_100%)] text-4xl sm:text-6xl 2xl:text-8xl font-bold font-inter uppercase -mt-3 text-center">
                         KAMI
                     </div>
                     <ul class="list-inside space-y-5 mt-10 px-6 mb-5">
