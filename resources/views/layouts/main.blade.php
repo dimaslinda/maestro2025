@@ -8,7 +8,7 @@
     <meta name="description"
         content="@yield('deskripsi', 'Bersertifikat ISO, kami menghadirkan solusi konstruksi berkualitas tinggi sesuai standar internasional.')">
     <title>PT. Kinarya Maestro Nusantara</title>
-    <link rel="icon" href="{{ asset('favicon.ico') }}?v=3" sizes="any">
+    <link rel="icon" href="{{ asset('favicon.ico') }}?v=4" sizes="any">
     <link rel="apple-touch-icon" href="{{ asset('img/general/logo-baru.webp') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
